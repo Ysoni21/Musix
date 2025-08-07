@@ -1,12 +1,27 @@
-# React + Vite
+# 🎧 MusiX — A Minimalist React Music Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MusiX** is a sleek and elegant music search app built with React and Vite. Users can search for songs or artists and explore album covers, track details, and 30-second previews — all in a polished, responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Features
 
-## Expanding the ESLint configuration
+- Search songs by title or artist name  
+- Displays up to 24 clean, clickable result cards  
+- Opens a modal popup with more details and audio preview  
+- Graceful loading and error handling  
+- Shows a friendly message when no results are found  
+- Fully responsive and mobile-friendly layout  
+- Beautiful glassmorphism-inspired design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Built With
+
+- **React.js** (Functional Components + Hooks)  
+- **Vite** for fast development setup  
+- **Deezer API** via RapidAPI  
+- **CSS3** (no external frameworks)  
+- Visual Studio Code
+
+---
