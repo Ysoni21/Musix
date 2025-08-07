@@ -1,14 +1,13 @@
 .modal-backdrop {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  inset: 0; /* shorthand for top: 0; right: 0; bottom: 0; left: 0 */
   background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 4rem;
   z-index: 1000;
+  overflow: hidden; /* ✅ Prevents scrollbars */
 }
 
 .modal-content {
@@ -17,11 +16,12 @@
   padding: 1.5rem;
   border-radius: 12px;
   max-width: 400px;
-  width: 90%;
+  width: 90vw; /* ✅ Keeps modal within screen width */
   position: relative;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px); /* for Safari */
 }
 
 .modal-image {
